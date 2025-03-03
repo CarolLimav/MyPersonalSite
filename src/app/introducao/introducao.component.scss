@@ -1,0 +1,28 @@
+.introducao-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+
+.introducao-conteudo{
+   padding-bottom: 300px;
+   margin: 50px 30px 30px 100px;
+}
+.introducao-conteudo p{
+    margin-top: 35px;
+    font-size: 20px;
+}
+.introducao-conteudo h1{
+    font-size: 3.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, p{
+    color: white;
+}
+
+.introducao-bg {
+background: linear-gradient(90deg, #220046, #140029); /* Mesmo gradiente */
+}
+
+
