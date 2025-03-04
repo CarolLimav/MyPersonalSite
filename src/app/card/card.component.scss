@@ -1,0 +1,47 @@
+.education-card {
+    background: #ddd8ff;
+    border-radius: 0px;
+    text-align: left;
+    width: 200px;  
+    min-height: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .education-card::before {
+    content: "";
+    position: absolute;
+    left: -2px; 
+    top: 20px; 
+    width: 5px;
+    height: 30px; 
+    background: #6a5acd;
+    border-radius: 0px;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+  }
+  
+  .subtitle {
+    color:  #6a5acd;
+    font-size: 14px;
+    margin: 20px 0px 0px 20px;
+  }
+  
+  .institution {
+    background: #6a5acd;
+    color: white;
+    padding: 12px;
+    border-radius: 0 0 0px 0px; 
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .period {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  

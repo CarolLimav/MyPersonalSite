@@ -1,0 +1,74 @@
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;;
+}
+// .section-bg{
+//     background: linear-gradient(90deg, #220046, #140029);
+// }
+
+.formacao-conteudo{
+    padding-bottom: 300px;
+    margin: 50px 30px 30px 100px;
+ }
+ .formacao-conteudo span{
+    color:  #6C63FF;
+ }
+ 
+ .formacao-conteudo h1{
+    font-size: 96px;
+    font-family: 'Poppins'sans-serif;
+    margin-bottom: 50px;
+    color: #111128;
+ }
+
+ .formacao-conteudo h2{
+    margin-bottom: 50px;
+ }
+
+ .botao-cv {
+    background-color: #6C63FF; /* Azul semelhante ao da imagem */
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-cv:hover {
+    background-color: #5548E0; /* Cor um pouco mais escura ao passar o mouse */
+}
+
+.card-education{
+    display: flex;
+    gap: 60px;
+}
+
+.title-cursos{
+   margin: 100px;
+}
+.card-education{
+    margin: 200px;
+}
+
+
+.formacao-e-idiomas {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline; 
+    gap: 1px; 
+}
+
+.idiomas-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111128;
+    text-align: center;
+    margin: -150px;
+}
+
+.english{
+    margin: 160px;
+}
